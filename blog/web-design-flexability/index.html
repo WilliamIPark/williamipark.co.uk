@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>William Park
+    
+      - Flexible Web Design
+    
+  </title>
+
+  <!-- Typekit -->
+  <script src="https://use.typekit.net/tqu1xud.js"></script>
+  <script>try{Typekit.load({ async: true });}catch(e){}</script>
+
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="/resources/font-awesome/css/font-awesome.min.css">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/css/main.css"
+   media="screen" title="Main CSS">
+
+   <!-- Scripts -->
+   <script type="text/javascript" src="/js/jquery-3.1.1.slim.min.js"></script>
+   <script type="text/javascript" src="/js/typed.js"></script>
+   <script type="text/javascript" src="/js/nav.js"></script>
+   <script type="text/javascript" src="/js/index-specific.js"></script>
+</head>
+
+<body>
+  <header id="main-header">
+  <section id="header-wrap">
+    <div>
+      <a href="/">
+        <div id="identity-wrap">
+            <img src="/resources/images/Monogram_Large_Optimized.svg"
+                 alt="Logo"
+                 id="logo"
+            />
+          <h1 id="wordmark">William Park</h1>
+        </div>
+      </a>
+    </div>
+    <nav id="desktop-nav">
+      <ul>
+        <a href="/">
+          <li>Home</li>
+        </a>
+
+        <a href="/about/">
+          <li>About</li>
+        </a>
+
+        <a href="/gallery">
+          <li>Gallery</li>
+        </a>
+
+        <a href="/">
+          <li>Projects</li>
+        </a>
+
+        <a href="/blog">
+          <li>Blog</li>
+        </a>
+      </ul>
+    </nav>
+  </section>
+
+    <!-- <nav id="nav-toggle-wrap">
+      <button type="button" name="sidebar-toggle" id="sidebar-toggle">
+        <i id="nav-toggle-icon" class="fa fa-bars fa-3x"></i>
+      </button>
+    </nav>
+    -->
+    <div id="nav-fade"></div>
+</header>
+
+  <main id="main-container">
+      <div id="push-down"></div>
+        <section id="article-wrap">
+  <h1>Flexible Web Design</h1>
+  <p>If you’re building a website that is anything more than an experiment it should always be in your interest to build a website as flexible as possible. But what do I mean by flexible?</p>
+
+<p>If you’re coming back to your website to make changes down the line, you’ll want a flexible website. Something where you’re not going to have to search through every file just to change a single word. Something where if your brand colours change it shouldn’t be a nightmare replacing a bunch of hex codes in CSS.</p>
+
+<h2 id="the-content">The Content</h2>
+
+<p>There’s loads of ways out there to build a flexible website, so lets focus on the content first. Changing content is extremely important for most websites. You don’t want content getting stale, because no one will want to revisit it. Depending on what you’re doing you’ll want to build off a database, or pull content from data centric files, like I’m doing here with YAML. Solutions like these allow you to build off data, using tools like Jekyll for a static site, or React for something more dynamic.</p>
+
+<p>Tools like React, Angular, Jekyll, Vue, and loads more all allow you to take a component based approach to your website. Imagine you wanted to remake your navigation bar, which I am actually having to do on here soon. You won’t have to replace code in every html file that includes your navigation, you can simply change the component and the rest will update automatically. Super flexible.</p>
+
+<h2 id="the-style">The Style</h2>
+
+<p>When approaching the style for your website you should seriously consider using a tool like SASS or SCSS. These are fantastic pre-processors that will allow you to build more flexible stylesheets. They barely add any complexity into the mix most of the time and will save you a bunch of time if you ever need to come back to your stylesheets. This is because of features like variable support, where you can store values in keys. You can then use your keys as properties to your CSS rules. There’s the massive added benefit here of being able to write modular CSS without additional http requests.</p>
+
+<p>I have rules set up for all the fonts on this website so they can be easily changed, and a lot of the designs colour (or lack of) can be changed by changing the variable value.</p>
+
+<h2 id="so">So…</h2>
+
+<p>Combining tools like these together can be a life saver if you are working on a big project or will be likely to return to your website. It will allow you to change stuff fast, and in turn will keep you more motivated to keep the website up to date and fresh.</p>
+
+</section>
+
+  </main>
+  <footer id="main-footer">
+  <section id="footer-wrap" class="two-column">
+    <section>
+      <h2>Find me Online</h2>
+      <ul>
+        <li>
+          <i class="fa fa-twitter"></i>
+          <a class= "smooth-slide-right" target="_blank"  href="https://twitter.com/WilliamIPark">Twitter</a>
+        </li>
+        <li>
+          <i class="fa fa-tumblr"></i>
+          <a class= "smooth-slide-right" target="_blank"  href="http://williamipark.tumblr.com/">Tumblr</a>
+        </li>
+        <li>
+          <i class="fa fa-github"></i>
+          <a class= "smooth-slide-right" target="_blank"  href="https://github.com/WilliamIPark">Github</a>
+        </li>
+        <li>
+          <i class="fa fa-stack-overflow"></i>
+          <a class= "smooth-slide-right" target="_blank"  href="http://stackoverflow.com/users/6364448/william">Stack Overflow</a>
+        </li>
+        <li>
+          <i class="fa fa-flickr"></i>
+          <a class= "smooth-slide-right" target="_blank"  href="https://www.flickr.com/photos/williamipark/">Flickr</a>
+        </li>
+      </ul>
+    </section>
+    <section>
+      <h2>Get in touch</h2>
+        <ul>
+          <li>
+            <i class="fa fa-send"></i>
+            <a class= "smooth-slide-right" target="_blank"  href="mailto:williampark@hotmail.co.uk">williampark@hotmail.co.uk</a>
+          </li>
+          <li>
+            <i class="fa fa-phone"></i>
+            <a class= "smooth-slide-right" target="_blank"  href="tel:07936802361">07936802361</a>
+          </li>
+        </ul>
+    </section>
+  </section>
+  <section id="copyright-wrap">
+    <p>&copy; Copyright - William Park - 2016</p>
+  </section>
+</footer>
+
+  <aside id="sidebar">
+  <section class="flex-right smooth-slide-right" id="sidebar-back">
+    <h4 id="back-text">Back</h4>
+    <button type="button" name="sidebar-toggle" id="sidebar-toggle">
+      <i id="nav-toggle-icon" class="fa fa-arrow-right"></i>
+    </button>
+  </section>
+  <h1>Navigation</h1>
+  <ul>
+    <li>
+      <a class= "smooth-slide-right" href="/">Home</a>
+      <p>The front page to all things awesome!</p>
+    </li>
+    <li>
+      <a class= "smooth-slide-right" href="/about/">About</a>
+      <p>Learn about me, or find a way to get in touch!</p>
+    </li>
+    <li>
+      <a class= "smooth-slide-right" href="/gallery/">Gallery</a>
+      <p>My work laid out for you!</p>
+    </li>
+    <li>
+      <a class= "smooth-slide-right" href="#">Projects</a>
+      <p>My work, but in a case study form!</p>
+    </li>
+    <li>
+      <a class= "smooth-slide-right" href="#">Blog</a>
+      <p>See more of my creations, hear my ramblings!</p>
+    </li>
+  </ul>
+</aside>
+
+
+  <!-- GOOGLE ANALYTICS -->
+  
+</body>
+</html>
