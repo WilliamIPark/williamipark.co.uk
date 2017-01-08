@@ -598,12 +598,14 @@ button {
   background-color: white;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
-  margin: 10px 0; }
+  margin: 10px 0;
+  font-family: "essonnes-display", "Times New Roman", Georgia, serif; }
 
 button:hover {
   text-decoration: none;
   cursor: pointer;
-  background-color: #1E1E20; }
+  background-color: #1E1E20;
+  color: white; }
 
 button p {
   -webkit-transition: all 0.3s ease;
@@ -632,8 +634,19 @@ button:hover p {
   width: 100%; }
 
 .blog-img-responsive {
-  max-width: 900px;
+  max-width: 960px;
   width: 100%; }
+
+.img-center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.projects-img {
+  margin: 2em 0 0 0; }
 
 @media screen and (max-width: 1000px) {
   #main-container {
