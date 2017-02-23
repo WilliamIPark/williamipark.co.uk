@@ -229,7 +229,7 @@
 #contact-form label {
   display: block;
   color: white;
-  font-family: "essonnes-display", "Times New Roman", Georgia, serif;
+  font-family: "baskerville-urw", "Times New Roman", Georgia, serif;
   font-weight: lighter;
   font-size: 18px; }
 
@@ -238,13 +238,13 @@
   font-size: 18px;
   margin: 5px 0;
   padding: 10px;
-  font-family: "essonnes-display", "Times New Roman", Georgia, serif;
+  font-family: "baskerville-urw", "Times New Roman", Georgia, serif;
   font-weight: lighter;
   border: 0; }
 
 .input-button {
   display: block;
-  font-family: "essonnes-display", "Times New Roman", Georgia, serif;
+  font-family: "baskerville-urw", "Times New Roman", Georgia, serif;
   font-weight: lighter;
   font-size: 18px;
   padding: 5px 10px;
@@ -276,7 +276,7 @@
   width: 100%; }
 
 .intro-sentence {
-  font-family: "essonnes-display", "Times New Roman", Georgia, serif;
+  font-family: "baskerville-urw", "Times New Roman", Georgia, serif;
   font-weight: lighter;
   margin: 0;
   padding: 0; }
@@ -419,7 +419,7 @@
   clear: both; }
 
 body {
-  font-family: "essonnes-display", "Times New Roman", Georgia, serif;
+  font-family: "baskerville-urw", "Times New Roman", Georgia, serif;
   color: #4F4F4F;
   max-width: 100% !important;
   overflow-x: hidden !important;
@@ -450,7 +450,7 @@ body {
   color: white; }
 
 p {
-  font-family: "essonnes-display", "Times New Roman", Georgia, serif;
+  font-family: "baskerville-urw", "Times New Roman", Georgia, serif;
   font-size: 24px;
   font-weight: lighter; }
 
@@ -599,7 +599,7 @@ button {
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
   margin: 10px 0;
-  font-family: "essonnes-display", "Times New Roman", Georgia, serif; }
+  font-family: "baskerville-urw", "Times New Roman", Georgia, serif; }
 
 button:hover {
   text-decoration: none;
